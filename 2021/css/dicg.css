@@ -1,0 +1,122 @@
+/*======================================
+//--//-->   CUSTOM DICG
+======================================*/
+
+.paperlist li{
+    margin-bottom: 12px;
+    font-size: 98%;
+}
+
+.session{
+    font-size: 50%;
+}
+
+.title{
+    margin-left: 105px;
+    font-size: 110%;
+}
+
+.title .author{
+    font-style: italic;
+    /* margin-left: 4px; */
+    margin-bottom: 0px;
+    font-size: 95%;
+}
+
+.title .author .aff{
+    color: #007723;
+    font-style: normal;
+    font-size: 95%;
+}
+
+
+.title details summary{
+    color: #0078ff;
+    font-size: 90%;
+}
+
+.title details summary a{
+    color: #0078ff;
+}
+
+.title details p{
+    margin-left: 14px;
+    font-size: 90%;
+}
+
+.title details p iframe{
+    margin-top: 10px;
+}
+
+.sessionhead{
+    font-style: bold;
+}
+
+.sessionhead a{
+    font-style: italic;
+    font-size: 85%;
+}
+
+.chair{
+    list-style-type:none;
+    font-style: italic;
+}
+
+.chair aff{
+    color: #007723;
+    font-style: normal;    
+}
+
+
+.intro .sessionsummary{
+    text-align: left;
+    font-size: 150%
+}
+
+.intro .clock{
+    font-size: 35%;
+    color: #ff7723;
+}
+
+
+.intro .intro-title-small {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3.8rem;
+}
+
+.intro .intro-title-warning{
+  color: #ccc;
+  font-weight: 50
+  font-size: 2.0rem;
+}
+
+
+.sessionsummary .author .aff{
+    color: #ffdd67;
+    font-style: normal;
+    font-size: 95%;
+}
+
+.sessionsummary .sessionhead{
+    color:#eee;
+    font-style: bold;
+    font-size: 145%;
+}
+
+.sessionsummary .sessionhead a{
+    font-style: italic;
+    font-size: 85%;
+}
+
+.warnweb{
+    list-style-type:none;
+    font-style: italic;
+    text-align: center
+}
+
+.title .preprint{    
+    margin-left: 14px;
+    font-size: 90%;
+    content: "\2023";
+}
