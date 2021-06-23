@@ -2,6 +2,17 @@
 //--//-->   CUSTOM DICG
 ======================================*/
 
+.color-e {
+  color: #a5c5c5;
+}
+
+.color-e:hover {
+  color: #c5c5c5;
+}
+
+
+/* --- */
+
 .paperlist li{
     margin-bottom: 12px;
     font-size: 98%;
