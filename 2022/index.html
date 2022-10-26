@@ -94,7 +94,6 @@
                               <!-- <h2> -->
                               <!--     1st International Workshop on  -->
                               <!--   </h2> -->
-                              <p class="lead"><b>Update: </b>The submission site is now open, please see <b><a href="https://dicg22.hotcrp.com">https://dicg22.hotcrp.com</a></b>.</p>
                               <div id="about" class="title-box-2">
                                  <h5 class="title-left"> 
                                     About 
@@ -188,6 +187,192 @@
                                  At least one of the authors will have to register for the workshop and present the paper.
                                  <!-- You can register for the conference through <a href="https://www.aanmelder.nl/116906/register"><b>Middleware 2020 registration page</b></a>. -->
                               </p>
+
+<div class="title-box-2"></div>
+                    <div id="program" class="title-box-2">
+                      <h5 class="title-left">
+         Program
+                      </h5>
+                    </div>
+          
+          <p><i>All times are specified in Eastern Time (ET). Click <b><a href="https://dateful.com/eventlink/1193898678" target="_blank">here</a></b> to see the start time of the event in your time zone.</i></p>
+
+          <h5 class="sessionhead">Opening</h5>
+          <ul class="paperlist">
+            <li class="chair">Session chair: Georgy Ishmaev</li>
+            <li>
+         <b>11:00 - 11:05 </b> -
+         <b>Welcome </b> <br/>
+            </li>
+            <li>
+         <b>11:05 - 11:40 </b> -
+         <b>Keynote: TBA</b> <br/>
+               <div class="title">
+           <!-- <p class="author"> -->
+             <!-- Martin Kleppmann <a class="aff">(University of Cambridge)</a> -->
+           <!-- </p> -->
+            </li>
+          </ul>
+          <br/>
+          <h5 class="sessionhead">Session I</h5>
+          <ul class="paperlist">
+               <li class="chair">Session chair: Martijn de Vos</li>
+            <li>
+         <b>11:40 - 12:05 </b> -
+         <b>Does My BFT Protocol Implementation Scale?</b>
+               <div class="title">
+           <p class="author">
+             Christian Berger  <a class="aff">(University of Passau)</a>,
+             Sadok Ben Toumia  <a class="aff">(University of Passau)</a>,
+             Hans P. Reiser  <a class="aff">(Reykjavik University)</a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>The novel blockchain generation of Byzantine fault-tolerant (BFT) state machine replication (SMR) protocols focuses on scalability and performance to meet requirements of distributed ledger technology (DLT), e.g., decentralization and geographic dispersion. Validating scalability and performance of BFT protocol implementations requires careful evaluation. While experiments with real protocol deployments usually offer the best realism, they are costly and time-consuming. In this paper, we explore simulation of unmodified BFT protocol implementations as as a method for cheap and rapid protocol evaluation: We can accurately forecast the performance of a BFT protocol while experimentally scaling its environment, i.e., by varying the number of nodes or geographic dispersion. Our approach is resource-friendly and preserves application-realism, since existing BFT frameworks can be simply plugged into the simulation engine without requiring code modifications or re-implementation.</p>
+           </details>
+         </div>
+
+            </li>
+            <li>
+         <b>12:05 - 12:30 </b> -
+         <b>Ideal Properties of Rollup Escape Hatches</b>
+               <div class="title">
+           <p class="author">
+             Jan Gorzny   <a class="aff">(Quantstamp, Inc.) </a>,
+             Lin Po-An   <a class="aff">(Quantstamp, Inc.) </a>,
+             Martin Derka   <a class="aff">(Quantstamp, Inc.) </a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Rollups are a kind of popular "layer two" scaling solution for slow-but-secure blockchains like Ethereum. A rollup takes computation of blockchain state updates off-chain but posts the inputs and the data to the underlying blockchain in order to benefit from its security. However, if rollup operators go offline, further state updates are no longer possible through the rollup; instead, state updates to the layer two state must be forced on the underlying blockchain. Such a mechanism is called an escape hatch as it allows state, and in particular digital assets, to escape from an inoperative rollup. We review the approaches from rollups developed by the community and highlight potential issues. We also establish a wishlist of properties that an escape hatch mechanism should have to be considered trustworthy and compatible with decentralization.</p>
+           </details>
+         </div>
+
+            </li>    
+            <li>
+         <b>12:30 - 14:00 </b> -
+         <b>Lunch Break </b> <br/>
+            </li>
+
+          </ul>
+          <br/>
+          <h5 class="sessionhead">Session II</h5>
+          <ul class="paperlist">
+               <li class="chair">Session chair: TBA</li>
+            <li>
+         <b>14:00 - 14:25 </b> -
+         <b>A Connectionless Grow-Only Set CRDT</b>
+               <div class="title">
+           <p class="author">
+             Christian Tschudin  <a class="aff">(University of Basel)</a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Using a single message type, we show how to obtain an efficient convergence protocol for a grow-only set CRDT (Conflict-Free Replicated Data Type) although the communication channel can drop and reorder messages at will. This permits to remove the middleware layer that is usually required in CRDT protocols for providing reliable or ordered message delivery. We use the obtained grow-only set for synchronizing a compression dictionary among peers, without the need of addresses, membership protocols or connections. In this paper we describe our CRDT protocol (which is a variant of a delta-CRDT that does not have to repeatedly send the whole state), how it can be used to bootstrap other convergent data structures and report on first simulations as well as implementations for three different platforms.</p>
+           </details>
+         </div>
+
+            </li>
+            <li>
+         <b>14:25 - 14:50 </b> -
+         <b>Secure Replication for Client-centric Data Stores</b>
+               <div class="title">
+           <p class="author">
+             Kristof Jannes   <a class="aff">(imec-DistriNet, KU Leuven) </a>,
+             Bert Lagaisse   <a class="aff">(imec-DistriNet, KU Leuven) </a>,
+             Wouter Joosen   <a class="aff">(imec-DistriNet, KU Leuven) </a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Decentralized, peer-to-peer systems using Conflict-free Replicated Data Types (CRDTs) can offer a more privacy-friendly alternative to centralized solutions that are often used by Big Tech. However, traditional CRDTs assume that all replicas are trusted, which is not necessarily the case in a peer-to-peer system. This paper presents a protocol for secure state-based CRDTs which provide fine-grained confidentiality and integrity by using encryption per field in every (sub)-document. Our protocol guarantees Strong Eventual Consistency despite any Byzantine replicas. It provides a fine-grained, dynamic membership and key management system, without violating Strong Eventual Consistency or losing concurrent updates. Our evaluation shows that the protocol is suitable for use in interactive, collaborative applications.</p>
+           </details>
+         </div>
+            </li>    
+            
+            <li>
+         <b>14:50 - 15:15 </b> -
+         <b>Local Crypto-Tokens for Local Economics</b>
+               <div class="title">
+           <p class="author">
+             Erick Lavoie   <a class="aff">(University of Basel) </a>,
+             Christian Tschudin   <a class="aff">(University of Basel) </a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Major blockchain projects, such as Bitcoin and Ethereum, enable secure global transfers of tokens between untrusted parties. The resulting global financial infrastructure however incurs latency and costs that are prohibitive for many economics applications that are local to a region or a community. Local economics relies on trust and reputation through repeated interactions within a community of participants that know each other, which has not previously been leveraged for the design of crypto-tokens. In this paper, we formulate the design of new local crypto-tokens as a research problem: we present concrete application examples, we identify double-spending detection as a weaker and sufficient alternative to double-spending prevention in local applications, and we formulate desired properties of new local crypto-tokens designs. Based on our analysis, we envision local crypto-tokens to complement existing blockchain projects by facilitating intra-community economics at much lower latency and costs, while evolutions of current blockchain projects will provide global inter-community exchanges of high-value transactions.</p>
+           </details>
+         </div>
+            </li>
+            <li>
+         <b>15:15 - 16:00 </b> -
+         <b>Coffee Break </b> <br/>
+            </li>
+
+          </ul>
+
+          <br/>
+          <h5 class="sessionhead">Session III</h5>
+          <ul class="paperlist">
+               <li class="chair">Session chair: Erick Lavoie</li>
+            <li>
+         <b>16:00 - 16:25 </b> -
+         <b>Dude, where’s my NFT? Distributed Infrastructures for Digital Art</b>
+               <div class="title">
+           <p class="author">
+             Leonhard Balduf  <a class="aff">(TU Darmstadt)</a>,
+             Martin Florian  <a class="aff">(Weizenbaum Institute, Humboldt University Berlin)</a>,
+             Björn Scheuermann  <a class="aff">(TU Darmstadt)</a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>We explore issues relating to the storage of digital art, based on an empirical investigation into the storage of audiovisual data referenced by non-fungible tokens (NFTs). We identify current trends in NFT data storage and highlight problems with implemented solutions. We particularly focus our investigation on the use of the Interplanetary Filesystem (IPFS), which emerges as a popular and versatile distributed storage solution for NFTs. Based on the analysis of discovered data storage techniques, we propose a set of best practices to ensure long-term storage survivability of NFT data. While helpful for forming the NFT art market into a legitimate long-term environment for digital art, our recommendations are also directly applicable for improving the availability and integrity of non-NFT digital art.</p>
+           </details>
+         </div>
+
+            </li>
+            <li>
+         <b>16:25 - 16:50 </b> -
+         <b>Evaluating the Decentralisation of Filecoin</b>
+               <div class="title">
+           <p class="author">
+             Barbara Guidi   <a class="aff">(University of Pisa) </a>,
+             Andrea Michienzi   <a class="aff">(University of Pisa) </a>,
+             Laura Ricci   <a class="aff">(University of Pisa) </a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Web3 is progressively decentralising many Internet services with the introduction of the blockchain, from social networks to online trading. Filecoin is a Web3 storage marketplace implemented on top of the Interplanetary File System that aims at decentralising storage by rewarding users who pledge storage to the system. Clients form deals with storage miners, who store deals on the Filecoin blockchain for transparency and auditability. Storage miners can also obtain extra rewards when they mine a block. In this paper, we show that although Filecoin aims at complete decentralisation, the rewarding system acts as the opposite. We download a dataset composed of approximately 47M messages and expose that most of the blocks are created by the same few storage miners, who are also the ones that pledge more storage. A detailed analysis of the identity of the miners shows that they belong to cloud companies, that have a lot of extra storage resources. The effect observed is due to the fact that storage miners are able to commit all the extra storage to the system, even when there are no deals in them. We also see that this effect is further intensified by recent updates to Filecoin, which let storage miners update committed storage to deal-containing storage effortlessly.</p>
+           </details>
+         </div>
+            </li>    
+            
+            <li>
+         <b>16:50 - 17:15 </b> -
+         <b>Unstoppable DAOs for Web3 Disruption</b>
+               <div class="title">
+           <p class="author">
+             Rowdy Chotkan   <a class="aff">(Delft University of Technology) </a>,
+             Jérémie Decouchant   <a class="aff">(Delft University of Technology) </a>,
+             Johan Pouwelse   <a class="aff">(Delft University of Technology) </a>
+           </p>
+           <details>
+             <summary>Abstract</summary>
+             <p>Decentralised Autonomous Organisations (DAOs) have the capability of being a disruptive Web3 technology. Their usage of cryptographically secure distributed ledgers shows promise of replacing existing technical and financial intermediaries. However, this promise has not been fully materialised yet: existing attempts typically rely on centralisation as the required decentralised components do not exist or are not mature enough. We present our Web3 Deployment Experiment around a robust decentralised economy to address these issues. Our economy is unique due to the removal of all centralised components and governance. It is resilient against legal and economic attacks as no individual or organisation can compromise its functioning. We dub this characteristic extreme decentralisation. Similar to BitTorrent and Bitcoin, our extreme decentralisation DAOs carefully avoid single points of failure and are effectively unstoppable. Within our experiment around a music economy, we bypass all intermediaries in finance, technology, and the music industry itself with a direct donation to musicians. We demonstrate the viability of collective decision-making within our decentralised economy and present a set of principles for Web3 DAOs. Our implementation shows that the DAO ecosystem is fully deployable on smartphones, allowing anyone to create a DAO without reliance on central authorities or components.</p>
+           </details>
+         </div>
+            </li>
+
+          </ul>
+          <br/>
+          <h5 class="sessionhead">Closing</h5>
+          <ul class="paperlist">
+            <li>
+         <b>17:15 - 17:30 </b> -
+         <b>General Discussion and Closing Remarks</b>
+            </li>
+          </ul>
+
+
                               <div class="title-box-2"></div>
                               <div id="organization" class="title-box-2">
                                  <h5 class="title-left">
