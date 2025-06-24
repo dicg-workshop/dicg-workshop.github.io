@@ -18,6 +18,12 @@
     font-size: 98%;
 }
 
+.paperlist .schedule-time {
+    display: inline-block;
+    min-width: 120px; /* Adjust as needed */
+    font-weight: bold;
+}
+
 .session{
     font-size: 50%;
 }
